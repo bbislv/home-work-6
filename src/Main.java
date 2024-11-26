@@ -47,12 +47,12 @@ public class Main {
 
         //task 9
         System.out.println("task 9");
-        sum = 0;
-        double percent = 10 / 100;
+        double sum1 = 0.0;
+        double percent = 10.0 / 100.0;
         for (int month = 1; month <= 12; month++) {
-            sum += amount;
-            sum = (int) (sum * (1 + percent));
-            System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей"); }
+            sum1 += amount;
+            sum1 = (int) (sum1 * (1 + percent));
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + sum1 + " рублей"); }
 
         //task 10
         System.out.println("task 10");
