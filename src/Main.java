@@ -48,7 +48,7 @@ public class Main {
         //task 9
         System.out.println("task 9");
         double sum1 = 0.0;
-        double percent = 10.0 / 100.0;
+        double percent = 12.0 / 100.0;
         for (int month = 1; month <= 12; month++) {
             sum1 += amount;
             sum1 = (int) (sum1 * (1 + percent));
